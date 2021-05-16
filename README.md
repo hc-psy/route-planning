@@ -33,5 +33,5 @@ A recommanded detailed instruction see [this document](https://github.com/dbecad
 
 ## Note
 
-This is the project provided by [CppND](https://github.com/udacity/CppND-Route-Planning-Project).
+This is the project instructed by [CppND](https://github.com/udacity/CppND-Route-Planning-Project).
 
