@@ -1,34 +1,12 @@
-# Route Planning Project
+# Real Map Route Planning
 
-This repo contains the starter code for the Route Planning project.
+This repo contains A\* Search employed in any `.osm` real map ([Map info](https://www.openstreetmap.org/)).
 
-<img src="map.png" width="600" height="450" />
+## Example
 
-## Cloning
+For example, below is a route around Daan Dist, Taipei, Taiwan. between any user-defined two points.   
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
-```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-
-## Dependencies for Running Locally
-* cmake >= 3.11.3
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* gcc/g++ >= 7.4.0
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same instructions as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
-* IO2D
-  * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
-  * This library must be built in a place where CMake `find_package` will be able to find it
+<img src="sample/ntu_route_15_25_85_55.png" width="450" height="450" />
 
 ## Compiling and Running
 
@@ -51,11 +29,9 @@ Or to specify a map file:
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
+A recommanded detailed instruction see [this document](https://github.com/dbecad/CppND-Route-Planning-Project/blob/master/Ubuntu16.4_Install.md).
 
-## Testing
+## Note
 
-The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
-```
-./test
-```
+This is the project provided by [CppND](https://github.com/udacity/CppND-Route-Planning-Project).
 
