@@ -1,6 +1,6 @@
 # Real Map Route Planning
 
-This repo contains A\* Search employed in any `.osm` real map ([Map info](https://www.openstreetmap.org/)).
+This repo contains A\* Search employed in any `.osm` real map ([Map info](https://www.openstreetmap.org/)). A shortest path and corresponding distance between given any two nodes are offered.
 
 ## Example
 
